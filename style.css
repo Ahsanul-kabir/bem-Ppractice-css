@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+div {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.card {
+  background-color: rgb(212, 255, 196);
+}
+
+.card--large {
+  width: 20rem;
+}
+
+.card__title {
+  color: rgb(241, 24, 24);
+}
+
+.card__btn {
+  background-color: rgb(143, 238, 238);
+}
+
+.card__btn--large {
+  width: 8rem;
+}
+
+.feedback {
+  background-color: rgb(205, 192, 174);
+}
+
+.feedback-medium {
+  width: 15rem;
+}
+
+.feedback__btn {
+  background-color: rgb(232, 196, 232);
+}
